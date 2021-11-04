@@ -2,7 +2,7 @@
 
 # Question 1
  #insert file name - "blank.txt"
-
+#change
 filename = readline(prompt ="Enter filename: ") #"blank.txt"
 original_file <- readLines(paste0("/Desktop/R Biocomputing/Biocomp-Exercise07/", filename), warn = FALSE)
 a = as.integer(readline(prompt = "What is the first line you want printed: ")) #ENTER NUMBER: what is the first line you want printed 
